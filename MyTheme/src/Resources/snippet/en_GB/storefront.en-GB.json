@@ -1,0 +1,32 @@
+{
+    "general" : {
+        "tags" : "Tags"
+    },
+    "header": {
+        "allCategories" : "All Categories"
+    },
+    "footer": {
+        "newsletterPage" : "NewsLetter Page"
+    },
+    "listing": {
+        "quickView": "Quick View"
+    },
+    "shopInfo" : {
+        "safePaymentHeader": "Safe Payment",
+        "safePayment": "30 days return money Guarantee ",
+        "deliveryHeader": "Free Delivery",
+        "delivery": "Where ever You Are",
+        "ReturnMoneyHeader" : "Return Money",
+        "ReturnMoney" : "Money Guarantee",
+        "supportHeader" : "24 Hours Support",
+        "support" : "Customer Support",
+        "detailsInfo1": "1 year guaranty",
+        "detailsInfo2": "30 Days return Time",
+        "detailsInfo3": "paying cache is available"
+    },
+    "detail" : {
+        "properties" : "Properties",
+        "priceNet" : "nett",
+        "showDetailPrice": "See Details Price"
+    }
+}

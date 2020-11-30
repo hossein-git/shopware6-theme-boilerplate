@@ -1,0 +1,57 @@
+/*
+Override variable defaults
+==================================================
+This file is used to override default SCSS variables from the Shopware Storefront or Bootstrap.
+
+Because of the !default flags, theme variable overrides have to be declared beforehand.
+https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults
+*/
+
+/*
+
+    here is the list of available variables (except bootstrap)
+    you can uncomment and change them
+
+*/
+
+/*
+$sw-color-brand-primary: #008490;
+$sw-color-brand-secondary: #526e7f;
+$sw-border-color: #bcc1c7;
+$sw-background-color: #fff7f4;
+$sw-color-success: #3cc261;
+$sw-color-info: #26b6cf;
+$sw-color-warning: #ffbd5d;
+$sw-color-danger: #e52427;
+$sw-font-family-base: 'MyFontName', sans-serif;
+$sw-text-color: #4a545b;
+$sw-font-family-headline: 'MyFontName', sans-serif;
+$sw-headline-color: #4a545b;
+$sw-color-price: #81bee9;
+$sw-color-buy-button: #008490;
+$sw-color-buy-button-text: #fff;
+$sw-logo-desktop: 'http://localhost:8000/media/a3/fc/75/1604826074/demostore-logo.png';
+$sw-logo-tablet: 'http://localhost:8000/media/a3/fc/75/1604826074/demostore-logo.png';
+$sw-logo-mobile: 'http://localhost:8000/media/a3/fc/75/1604826074/demostore-logo.png';
+$sw-logo-favicon: 'http://localhost:8000/media/97/c1/41/1604826074/favicon.png';
+$filterBKColor: #ffffff;
+$footerTextColor: #999;
+$footerHeaderColor: #999;
+$footerBackgroundColor: #202325;
+$productDetailsSliderZoomModel: 0;
+$productDetailsSliderMinHeight: 490px;
+$productDetailsSliderNavigationDots: 0;
+$crossSellingWidth: 290px;
+$crossSellingBorder: 0;
+$crossSellingRotate: 0;
+$NavigationBackgroundColor: #fff;
+$NavigationTextColor: #999;
+$NavigationHoverColor: #E4272B;
+$HeaderBackgroundColor: #ffffff;
+$HeaderTopBarTextColor: #4A4A4A;
+$NavigationHeaderColor: #333333;
+$sw-asset-public-url: 'http://localhost:8000';
+$sw-asset-theme-url: 'http://localhost:8000';
+$sw-asset-asset-url: 'http://localhost:8000';
+$sw-asset-sitemap-url: 'http://localhost:8000';
+*/

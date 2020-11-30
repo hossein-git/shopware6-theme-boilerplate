@@ -1,0 +1,307 @@
+{
+    "name": "MyTheme",
+    "author": "https://github.com/hossein-git",
+    "views": [
+        "@Storefront",
+        "@Plugins",
+        "@BookStore"
+    ],
+    "style": [
+        "app/storefront/src/scss/overrides.scss",
+        "@Storefront",
+        "app/storefront/src/scss/base.scss"
+    ],
+    "script": [
+        "@Storefront",
+        "app/storefront/dist/storefront/js/my-theme.js"
+    ],
+    "asset": [
+        "app/storefront/src/assets"
+    ],
+    "config": {
+        "tabs": {
+            "footerTab": {
+                "label": {
+                    "en-GB": "Footer Settings",
+                    "de-DE": "Footer Settings"
+                }
+            },
+            "productDetails": {
+                "label": {
+                    "en-GB": "Product Details",
+                    "de-DE": "Product Details"
+                }
+            },
+            "navigation": {
+                "label": {
+                    "en-GB": "Navigation",
+                    "de-DE": "Navigation"
+                }
+            }
+        },
+        "blocks": {
+            "general": {
+                "label": {
+                    "en-GB": "general",
+                    "de-DE": "general"
+                }
+            },
+            "FooterBlock": {
+                "label": {
+                    "en-GB": "Footer Part",
+                    "de-DE": "Footer Abteilung"
+                }
+            },
+            "productDetails": {
+                "label": {
+                    "en-GB": "product details page",
+                    "de-DE": "Artikle details seite"
+                }
+            },
+            "crossSellingBlock": {
+                "label": {
+                    "en-GB": "cross-selling settings",
+                    "de-DE": "cross-selling Einstellungen"
+                }
+            },
+            "HeaderBlock": {
+                "label": {
+                    "en-GB": "Header Part",
+                    "de-DE": "Header Abteilung"
+                }
+            },
+            "NavigationBlock": {
+                "label": {
+                    "en-GB": "Navigation Part",
+                    "de-DE": "Navigation Abteilung"
+                }
+            }
+        },
+        "sections": {
+            "footerSection": {
+                "label": {
+                    "en-GB": "Footer Text Color",
+                    "de-DE": "Footer Text Farbe"
+                }
+            },
+            "productDetailsSlider": {
+                "label": {
+                    "en-GB": "Slider Settings",
+                    "de-DE": "Slider Einstellungen"
+                }
+            },
+            "crossSellingSlider": {
+                "label": {
+                    "en-GB": "Cross Selling Slider Settings",
+                    "de-DE": "Cross Selling Slider Einstellungen"
+                }
+            },
+            "NavigationSection": {
+                "label": {
+                    "en-GB": "Navigation Text Color",
+                    "de-DE": "Navigatipn Text Farbe"
+                }
+            },
+            "HeaderSection": {
+                "label": {
+                    "en-GB": "Header Text Color",
+                    "de-DE": "Header Text Farbe"
+                }
+            }
+        },
+        "fields": {
+            "filterBKColor": {
+                "label": {
+                    "en-GB": "Dropdown Filters Background Color",
+                    "de-DE": "Dropdown Filters Background Color"
+                },
+                "type": "color",
+                "value": "#fff",
+                "block": "general",
+                "editable": true
+            },
+
+            "footerTextColor": {
+                "label": {
+                    "en-GB": "Select footer text color",
+                    "de-DE": "Wähle footer text Farbe"
+                },
+                "type": "color",
+                "value": "#999",
+                "block": "FooterBlock",
+                "section": "footerSection",
+                "tab": "footerTab",
+                "editable": true
+            },
+            "footerHeaderColor": {
+                "label": {
+                    "en-GB": "Select footer heading color",
+                    "de-DE": "Wähle footer uberschrift Farbe"
+                },
+                "type": "color",
+                "value": "#999",
+                "block": "FooterBlock",
+                "section": "footerSection",
+                "tab": "footerTab",
+                "editable": true
+            },
+            "footerBackgroundColor": {
+                "label": {
+                    "en-GB": "Select footer Background color",
+                    "de-DE": "Wähl footer hintergrund Farbe"
+                },
+                "type": "color",
+                "value": "#202325",
+                "block": "FooterBlock",
+                "tab": "footerTab",
+                "section": "footerSection",
+                "editable": true
+            },
+
+            "productDetailsSliderZoomModel": {
+                "label": {
+                    "en-GB": "Zoom for slider Modal",
+                    "de-DE": "Zoom fur slider Modal"
+                },
+                "type": "switch",
+                "value": false,
+                "editable": true,
+                "tab": "productDetails",
+                "block": "productDetails",
+                "section": "productDetailsSlider"
+            },
+            "productDetailsSliderMinHeight": {
+                "label": {
+                    "en-GB": "Min height for slider ",
+                    "de-DE": "Min. Höhe für  slider"
+                },
+                "type": "text",
+                "value": "490px",
+                "editable": true,
+                "tab": "productDetails",
+                "block": "productDetails",
+                "section": "productDetailsSlider"
+            },
+            "productDetailsSliderNavigationDots": {
+                "label": {
+                    "en-GB": "Show Dots in slider",
+                    "de-DE": "Zeig Dots (...) fur slider"
+                },
+                "type": "switch",
+                "value": false,
+                "editable": true,
+                "tab": "productDetails",
+                "block": "productDetails",
+                "section": "productDetailsSlider"
+            },
+
+            "crossSellingWidth": {
+                "label": {
+                    "en-GB": "box width in cross-selling slider",
+                    "de-DE": "Kastenbreite in cross-selling slider"
+                },
+                "type": "text",
+                "value": "290px",
+                "editable": true,
+                "tab": "productDetails",
+                "block": "crossSellingBlock"
+            },
+            "crossSellingBorder": {
+                "label": {
+                    "en-GB": "border for cross-selling slider",
+                    "de-DE": "border fur cross-selling slider"
+                },
+                "type": "switch",
+                "value": "false",
+                "editable": true,
+                "tab": "productDetails",
+                "block": "crossSellingBlock"
+            },
+            "crossSellingRotate": {
+                "label": {
+                    "en-GB": "Rotate cross-selling slider",
+                    "de-DE": "Rotate cross-selling slider"
+                },
+                "type": "switch",
+                "value": "false",
+                "editable": true,
+                "tab": "productDetails",
+                "block": "crossSellingBlock"
+            },
+
+            "navigationBackgroundColor": {
+                "label": {
+                    "en-GB": "Select Navigation Background color",
+                    "de-DE": "Wähle Navigation hintergrund Farbe"
+                },
+                "type": "color",
+                "value": "#fff",
+                "block": "NavigationBlock",
+                "section": "NavigationSection",
+                "tab": "navigation",
+                "editable": true
+            },
+            "navigationTextColor": {
+                "label": {
+                    "en-GB": "Select Navigation text color",
+                    "de-DE": "Wähle Navigation text Farbe"
+                },
+                "type": "color",
+                "value": "#999",
+                "block": "NavigationBlock",
+                "section": "NavigationSection",
+                "tab": "navigation",
+                "editable": true
+            },
+            "navigationHoverColor": {
+                "label": {
+                    "en-GB": "Select Navigation Text Hover color",
+                    "de-DE": "Wähle Navigation Text Hover Farbe"
+                },
+                "type": "color",
+                "value": "#E4272B",
+                "block": "NavigationBlock",
+                "section": "NavigationSection",
+                "tab": "navigation",
+                "editable": true
+            },
+            "navigationDropDownBackgroundColor": {
+                "label": {
+                    "en-GB": "Navigation dropdown background Text color",
+                    "de-DE": "Navigation dropdown background Text Farbe"
+                },
+                "type": "color",
+                "value": "#fff",
+                "block": "NavigationBlock",
+                "section": "NavigationSection",
+                "tab": "navigation",
+                "editable": true
+            },
+
+            "HeaderBackgroundColor": {
+                "label": {
+                    "en-GB": "Select header Background color",
+                    "de-DE": "Wähle header Background Farbe"
+                },
+                "type": "color",
+                "value": "#ffffff",
+                "block": "HeaderBlock",
+                "section": "HeaderSection",
+                "tab": "navigation",
+                "editable": true
+            },
+            "HeaderTopBarTextColor": {
+                "label": {
+                    "en-GB": "Select TopBar Header color",
+                    "de-DE": "Wähle TopBar Header Farbe"
+                },
+                "type": "color",
+                "value": "#4A4A4A",
+                "block": "HeaderBlock",
+                "section": "HeaderSection",
+                "tab": "navigation",
+                "editable": true
+            }
+        }
+    }
+}

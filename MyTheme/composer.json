@@ -1,0 +1,43 @@
+{
+    "name": "hossein-git/my-theme",
+    "description": "Boilerplate Shopware6 Theme",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "https://github.com/hossein-git",
+            "homepage": "https://findhossein.com",
+            "email": "haghparast@ngsi.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyTheme\\": "src/"
+        }
+    },
+    "require": {
+
+    },
+    "extra": {
+        "shopware-plugin-class": "MyTheme\\MyTheme",
+        "plugin-icon": "src/Resources/public/icon.png",
+        "label": {
+            "de-DE": "Boilerplate Shopware6 Theme",
+            "en-GB": "Boilerplate Shopware6 Theme"
+        },
+        "description": {
+            "de-DE": "Boilerplate Shopware6 Theme | Hat gemacht bei https://github.com/hossein-git ",
+            "en-GB": "Boilerplate Shopware6 Theme | Hat gemacht bei https://github.com/hossein-git "
+        },
+        "manufacturerLink": {
+            "de-DE": "https://www.findhossein.com",
+            "en-GB": "https://www.findhossein.com"
+        },
+        "supportLink": {
+            "de-DE": "https://findhossein.com",
+            "en-GB": "https://findhossein.com"
+        }
+    }
+}
+
